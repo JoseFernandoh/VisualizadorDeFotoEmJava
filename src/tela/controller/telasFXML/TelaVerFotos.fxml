@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="tela" prefHeight="493.0" prefWidth="724.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tela.controller.TelaVerFotosController">
+   <children>
+      <Button fx:id="butaoProximo" layoutX="593.0" layoutY="442.0" mnemonicParsing="false" onAction="#proximo" prefHeight="30.0" prefWidth="117.0" text="Proximo" textAlignment="CENTER" textOverrun="CLIP">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button fx:id="butaoVoltar" disable="true" layoutX="21.0" layoutY="442.0" mnemonicParsing="false" onAction="#voltar" prefHeight="30.0" prefWidth="101.0" text="Voltar" textAlignment="CENTER">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <ImageView fx:id="imgView" fitHeight="424.0" fitWidth="724.0" layoutX="2.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Label fx:id="posicaoFotos" alignment="CENTER" layoutX="333.0" layoutY="442.0" prefHeight="25.0" prefWidth="59.0" />
+   </children>
+</AnchorPane>
